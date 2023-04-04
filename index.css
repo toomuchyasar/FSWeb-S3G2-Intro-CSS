@@ -1,0 +1,104 @@
+.contanier {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0auto;
+}
+
+.container nav a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;  
+}
+
+header {
+    font-size: 1rem;
+}
+
+nav{
+   
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+}
+
+nav a {
+ border : 1rem 1rem 1rem 1rem solid;
+ color: white;
+ text-decoration: none;
+ padding: 1.5rem 1rem;
+}
+
+.full-width {
+    display: flex;
+}   
+
+.headerrow .headerimage {
+
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+
+.headerrow .headertext{
+font-family: 'Roboto Mono', monospace;
+text-align: center;
+min-width: 70%;
+}
+
+.header {
+    width: 2rem;
+    height: 2rem;
+}
+.headerrow {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+img.yuvarlak {
+    margin-left: 6rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    height: 19rem;
+    width: 19rem;
+    object-fit: cover;
+}
+
+.firstcontext {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #DDB9A3;
+    color : white;
+    font-size: 1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    display: block;
+    text-align: center;
+}
+
+.secondcontext {    
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 37.5rem;
+    margin-right: 37.5rem;
+    padding-bottom: 10rem;
+ 
+}
+
+img.kucukresim {
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    max-width: 4rem;    
+}
+
+.footer {
+    display: flex;
+}
+
+.footerimage {
+    width: 1500px;
+}
